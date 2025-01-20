@@ -25,6 +25,7 @@ export interface ConfigData {
     background: string
     backgroundCongrats: string
     backgroundRewards: string
+    backgroundCardQuestion: string
     disable: string
     wrong: string
     correct: string

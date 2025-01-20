@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-01-20 12:20:00",
+  "lastUpdated": "2025-01-20 12:24:00",
   "userData": {
     "userId": "",
     "userName": "",
@@ -10,7 +10,7 @@
   },
   "validPeriod": {
     "startDate": "2024-10-20 12:00:00",
-    "endDate": "2025-11-20 23:59:00"
+    "endDate": "2025-02-14 23:59:00"
   },
   "config": {
     "triesAllowedPerDay": 20000000,
@@ -25,6 +25,7 @@
     "background": "#61006c",
     "backgroundCongrats": "#07121BF2",
     "backgroundRewards": "#FFF",
+    "backgroundCardQuestion": "#2fa8cc",
     "disable": "#989898",
     "wrong": "#ef1f1f",
     "correct": "#5ac439",
