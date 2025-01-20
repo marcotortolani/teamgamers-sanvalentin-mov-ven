@@ -30,13 +30,13 @@ export const StartScreen = () => {
       className="flex-1 flex flex-col items-center justify-center gap-2 p-4 "
     >
       <p
-        className="text-center text-3xl xs:text-4xl xs:leading-[3.2rem] uppercase font-oswaldMedium italic tracking-wide -mb-2 xs:-mb-6 "
+        className="text-center text-3xl xs:text-4xl xs:leading-[3.2rem] uppercase font-oswaldMedium italic tracking-wide -mb-2 xs:-mb-4 "
         style={{ color: colors.text }}
       >
         Categoría
       </p>
       <h2
-        className="w-[95%] text-center text-wrap text-4xl xs:text-[3.2rem] xs:leading-[4rem] uppercase font-oswaldBold italic tracking-wide -mb-4 "
+        className="w-[95%] text-center text-wrap text-4xl xs:text-[3.2rem] xs:leading-[3.5rem] uppercase font-oswaldBold italic tracking-wide -mb-4 "
         style={{
           color: colors.title,
         }}

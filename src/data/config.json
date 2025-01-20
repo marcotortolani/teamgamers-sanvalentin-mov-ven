@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-01-20 12:04:00",
+  "lastUpdated": "2025-01-20 12:20:00",
   "userData": {
     "userId": "",
     "userName": "",
@@ -22,30 +22,30 @@
   },
   "URLImagesHost": "",
   "colors": {
-    "background": "#000000",
+    "background": "#61006c",
     "backgroundCongrats": "#07121BF2",
     "backgroundRewards": "#FFF",
     "disable": "#989898",
     "wrong": "#ef1f1f",
     "correct": "#5ac439",
-    "title": "#9d2b67",
+    "title": "#FF455A",
     "text": "#FAFAFA",
     "text2": "",
-    "primary": "#9d2b67",
-    "primaryLight": "#c93c87",
-    "secondary": "#3d1c7c",
+    "primary": "#FF455A",
+    "primaryLight": "#FF656A",
+    "secondary": "#edc70a",
     "rouletteSection": [
-      "#c93c87",
-      "#8daaa5",
-      "#c93c87",
-      "#000000",
-      "#8daaa5",
-      "#c93c87",
-      "#8daaa5",
-      "#000000"
+      "#9b2c2c",
+      "#2e02a5",
+      "#c32b67",
+      "#edc70a",
+      "#1dc9ff",
+      "#2e02a5",
+      "#c32b67",
+      "#edc70a"
     ],
     "wheel": "#325667",
-    "nextBtnGradient": "linear-gradient(180deg, #9d2b67 50%, #691c45 100%)",
+    "nextBtnGradient": "linear-gradient(180deg, #FF455A 50%, #BF253A 100%)",
     "answerBtnGradient": "linear-gradient(180deg, #b6b6b6 60%, #646464 100%)"
   },
   "images": {
@@ -170,395 +170,776 @@
   "categories": [
     {
       "id": 1,
-      "name": "PERSONAJES",
-      "imgURL": "/img/categoria-personajes.webp",
-      "bonus": true,
+      "name": "FriendTin",
+      "imgURL": "/img/categoria-friendtin.webp",
+      "bonus": false,
       "questions": [
         {
           "id": 1,
-          "title": "¿Cuál es la vestimenta icónica de Mario?",
+          "title": "Team Gamers es un portal dedicado al...",
           "bonus": false,
           "answers": [
             {
-              "text": "Chaqueta Negra",
+              "text": "Turismo",
               "isCorrect": false
             },
             {
-              "text": "Remera Verde",
-              "isCorrect": false
-            },
-            {
-              "text": "Overol Azul",
+              "text": "Gaming",
               "isCorrect": true
+            },
+            {
+              "text": "Fitness",
+              "isCorrect": false
             }
           ]
         },
         {
           "id": 2,
-          "title": "¿Cómo se llama la princesa del Reino Champiñón?",
+          "title": "Con Team Gamers podrás convertirte en un...",
           "bonus": false,
           "answers": [
             {
-              "text": "Daisy",
-              "isCorrect": false
-            },
-            {
-              "text": "Peach",
+              "text": "Experto Gamer",
               "isCorrect": true
             },
             {
-              "text": "Rosalina",
+              "text": "Cocinero",
+              "isCorrect": false
+            },
+            {
+              "text": "Trapero",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 3,
-          "title": "¿De qué color es el dinosaurio que ayuda a Mario y Luigi?",
+          "title": "En Team Gamers encontraras videos hechos por...",
           "bonus": false,
           "answers": [
             {
-              "text": "Rojo",
+              "text": "Periodistas",
               "isCorrect": false
             },
             {
-              "text": "Azul",
+              "text": "Inteligencia Artificial",
               "isCorrect": false
             },
             {
-              "text": "Verde",
+              "text": "Gamers",
               "isCorrect": true
             }
           ]
         },
         {
           "id": 4,
-          "title": "¿Quién es el principal antagonista de Mario?",
+          "title": "El Gamer venezolano que hizo una entrevista para Team Gamers es...",
           "bonus": false,
           "answers": [
             {
-              "text": "Bowser",
-              "isCorrect": true
-            },
-            {
-              "text": "Goomba",
+              "text": "The Nino",
               "isCorrect": false
             },
             {
-              "text": "Bill Bala",
+              "text": "The Donato",
+              "isCorrect": true
+            },
+            {
+              "text": "The Gerfg",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 5,
-          "title": "¿Cuál de los siguientes es un secuaz de Bowser?",
+          "title": "El Gamer venezolano que participó de la Clinica de Team Gamers fue...",
           "bonus": false,
           "answers": [
             {
-              "text": "Wario",
+              "text": "The Donato",
               "isCorrect": false
             },
             {
-              "text": "Koopa Troopa",
+              "text": "Jeanki",
+              "isCorrect": false
+            },
+            {
+              "text": "The Hectorino",
               "isCorrect": true
-            },
-            {
-              "text": "Toad",
-              "isCorrect": false
             }
           ]
         },
         {
           "id": 6,
-          "title": "¿Quién es el compañero de aventuras de Wario?",
+          "title": "En Team Gamers puedes leer notas editoriales sobre...",
           "bonus": false,
           "answers": [
             {
-              "text": "Luigi",
-              "isCorrect": false
-            },
-            {
-              "text": "Browser",
-              "isCorrect": false
-            },
-            {
-              "text": "Warluigi",
+              "text": "Tecno",
               "isCorrect": true
+            },
+            {
+              "text": "Programación",
+              "isCorrect": false
+            },
+            {
+              "text": "Deportes",
+              "isCorrect": false
             }
           ]
         },
         {
           "id": 7,
-          "title": "La princesa Peach tiene una hermana llamada...",
+          "title": "Los últimas novedades de los videojuegos están en la categoría...",
           "bonus": false,
           "answers": [
             {
-              "text": "Daisy",
+              "text": "Novedades",
+              "isCorrect": false
+            },
+            {
+              "text": "Noticias",
+              "isCorrect": false
+            },
+            {
+              "text": "Juegos",
               "isCorrect": true
-            },
-            {
-              "text": "Rosalina",
-              "isCorrect": false
-            },
-            {
-              "text": "Olivia",
-              "isCorrect": false
             }
           ]
         },
         {
           "id": 8,
-          "title": "El villano Bowser es cuidado por un hechicero llamado...",
+          "title": "Team Gamers tiene una sección especial para juegos...",
           "bonus": false,
           "answers": [
             {
-              "text": "Kammy",
+              "text": "Corporativos",
               "isCorrect": false
             },
             {
-              "text": "Kamelia",
-              "isCorrect": false
-            },
-            {
-              "text": "Kamek",
+              "text": "Retro",
               "isCorrect": true
+            },
+            {
+              "text": "Puzzle",
+              "isCorrect": false
             }
           ]
         },
         {
           "id": 9,
-          "title": "El Rey Boo tiene los ojos de color...",
+          "title": "Los videos de Team Gamers pueden ser...",
           "bonus": false,
           "answers": [
             {
-              "text": "Azules",
-              "isCorrect": false
-            },
-            {
-              "text": "Morados",
+              "text": "Tutoriales de juegos",
               "isCorrect": true
             },
             {
-              "text": "Rosas",
+              "text": "Trailers",
+              "isCorrect": false
+            },
+            {
+              "text": "Series animadas",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 10,
-          "title": "¿Quién es el champiñón fiel defensor de la princesa Peach?",
+          "title": "Los videos más populares de Team Gamers son los...",
           "bonus": false,
           "answers": [
             {
-              "text": "Yoshi",
+              "text": "Reaccionando a",
               "isCorrect": false
             },
             {
-              "text": "Koopas",
+              "text": "Tips y Trucos",
               "isCorrect": false
             },
             {
-              "text": "Toad",
+              "text": "Gameplays",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "title": "Team Gamers llegó a Movistar Venezuela en...",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "2022",
+              "isCorrect": false
+            },
+            {
+              "text": "2023",
+              "isCorrect": true
+            },
+            {
+              "text": "2024",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "title": "Para acceder a Team Gamers por Movistar Venezuela debes ser...",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Un amigo",
+              "isCorrect": false
+            },
+            {
+              "text": "Un suscriptor",
+              "isCorrect": true
+            },
+            {
+              "text": "Un invitado",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "title": "En que reciente festival participó Movistar Venezuela mostrando Team Gamers",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "FETILVEN",
+              "isCorrect": false
+            },
+            {
+              "text": "FITLVEN",
+              "isCorrect": false
+            },
+            {
+              "text": "FITELVEN",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "title": "Recientemente Movistar Venezuela con Team Gamers organizaron una clínica de ...",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Stumble Guys Academy",
+              "isCorrect": false
+            },
+            {
+              "text": "Fall Guys Academy",
+              "isCorrect": true
+            },
+            {
+              "text": "Minecraft Academy",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "title": "Con Team Gamers tendras las ultimas novedades del...",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Pop",
+              "isCorrect": false
+            },
+            {
+              "text": "Trap",
+              "isCorrect": true
+            },
+            {
+              "text": "Rock",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "title": "Puedes acceder a Team Gamer desde...",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "La computadora",
+              "isCorrect": false
+            },
+            {
+              "text": "El móvil",
+              "isCorrect": false
+            },
+            {
+              "text": "Ambos dispositivos",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "title": "Team Gamers tiene cuenta en...",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Instagram",
+              "isCorrect": true
+            },
+            {
+              "text": "Snapchat",
+              "isCorrect": false
+            },
+            {
+              "text": "Twitter",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "title": "Team Gamers está hecho principalmente para....",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Infantes",
+              "isCorrect": false
+            },
+            {
+              "text": "Adolescentes",
+              "isCorrect": false
+            },
+            {
+              "text": "Todas las edades",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "title": "La sección Tecno de Team Gamers trata sobre...",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Música",
+              "isCorrect": false
+            },
+            {
+              "text": "Tecnología",
+              "isCorrect": true
+            },
+            {
+              "text": "Técnicas Gamers",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "title": "Te convertirás en un experto Gamer con la ayuda de...",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Que Guay Viajes",
+              "isCorrect": false
+            },
+            {
+              "text": "Loco por la Cocina",
+              "isCorrect": false
+            },
+            {
+              "text": "Team Gamers",
               "isCorrect": true
             }
           ]
         }
       ]
     },
+
     {
       "id": 2,
-      "name": "JUEGOS",
-      "imgURL": "/img/categoria-juegos.webp",
-      "bonus": true,
+      "name": "The Sims",
+      "imgURL": "/img/categoria-thesims.webp",
+      "bonus": false,
       "questions": [
         {
           "id": 1,
-          "title": "¿Cuáles son las monedas utilizadas en Stumble Guys?",
+          "title": "¿Cómo se llama el pack de extensión sobre San Valentín?",
           "bonus": false,
           "answers": [
             {
-              "text": "Fichas y Gemas",
-              "isCorrect": true
-            },
-            {
-              "text": "Oro",
+              "text": "Los Sims™ 4 ¡Boda perfecta!",
               "isCorrect": false
             },
             {
-              "text": "Diamantes",
+              "text": "Los Sims™ 4 ¡Viva el Amor!",
+              "isCorrect": true
+            },
+            {
+              "text": "Los Sims™ 4 ¡San Valentin!",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 2,
-          "title": "¿Cuántos emotes especiales están disponibles en Stumble Guys?",
+          "title": "¿Qué interacción romántica desbloquea el estado 'Enamorado'?",
           "bonus": false,
           "answers": [
             {
-              "text": "3",
+              "text": "Beso tímido",
               "isCorrect": false
             },
             {
-              "text": "4",
+              "text": "Confesar atracción",
               "isCorrect": true
             },
             {
-              "text": "5",
+              "text": "Proponer matrimonio",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 3,
-          "title": "¿Cuál es el precio de una tirada para obtener un aspecto raro o mejor en Stumble Guys?",
+          "title": "¿Cómo se llama el estado emocional que facilita el éxito en interacciones románticas?",
           "bonus": false,
           "answers": [
             {
-              "text": "90 gemas",
+              "text": "Coqueto",
               "isCorrect": true
             },
             {
-              "text": "120 gemas",
+              "text": "Feliz",
               "isCorrect": false
             },
             {
-              "text": "250 gemas",
+              "text": "Inspirado",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 4,
-          "title": "¿Cuál es la rareza más baja en Stumble Guys?",
+          "title": "¿Qué objeto se necesita para que dos Sims puedan casarse?",
           "bonus": false,
           "answers": [
             {
-              "text": "Legendarios",
+              "text": "Una mesa de banquete",
               "isCorrect": false
             },
             {
-              "text": "Comunes",
+              "text": "Un arco nupcial",
               "isCorrect": true
             },
             {
-              "text": "Míticos",
+              "text": "Una estufa",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 5,
-          "title": "¿En qué juego de Nintendo aparece un fontanero famoso?",
+          "title": "¿Qué expansión introdujo la opción de tener citas románticas?",
           "bonus": false,
           "answers": [
             {
-              "text": "PacMan",
+              "text": "Estaciones",
               "isCorrect": false
             },
             {
-              "text": "The Legend of Zelda",
+              "text": "Urbanitas",
               "isCorrect": false
             },
             {
-              "text": "Mario Bros",
+              "text": "¿Quedamos?",
               "isCorrect": true
             }
           ]
         },
         {
           "id": 6,
-          "title": "¿Cómo se llama la princesa que Mario debe rescatar en los juegos de Nintendo?",
+          "title": "¿Cómo se llama el evento social que se organiza para encontrar el amor?",
           "bonus": false,
           "answers": [
             {
-              "text": "Princesa Leia",
+              "text": "Fiesta de solteros",
               "isCorrect": false
             },
             {
-              "text": "Princesa Peach",
+              "text": "Reunión romántica",
+              "isCorrect": false
+            },
+            {
+              "text": "Cita romántica",
               "isCorrect": true
-            },
-            {
-              "text": "Princesa Diana",
-              "isCorrect": false
             }
           ]
         },
         {
           "id": 7,
-          "title": "¿Qué inspiró a Satoshi Tajiri para crear Pokémon?",
+          "title": "¿Cuál es el nivel más alto de relación romántica en los Sims?",
           "bonus": false,
           "answers": [
             {
-              "text": "Una colección de insectos",
-              "isCorrect": true
-            },
-            {
-              "text": "Un juguete de la infancia",
+              "text": "Novios",
               "isCorrect": false
             },
             {
-              "text": "Manga y animé",
+              "text": "Cónyuge",
+              "isCorrect": true
+            },
+            {
+              "text": "Mejores amigos",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 8,
-          "title": "En 'Call of Duty: Black Ops', ¿en qué guerra real está ambientado el juego?",
+          "title": "¿Qué pasa si un Sim es rechazado al intentar coquetear?",
           "bonus": false,
           "answers": [
             {
-              "text": "Guerra fría",
+              "text": "Pierde amistad",
+              "isCorrect": false
+            },
+            {
+              "text": "Gana una habilidad de carisma",
+              "isCorrect": false
+            },
+            {
+              "text": "Entra en estado `Avergonzado`",
               "isCorrect": true
-            },
-            {
-              "text": "Segunda Guerra Mundial",
-              "isCorrect": false
-            },
-            {
-              "text": "Guerra de Vietnam",
-              "isCorrect": false
             }
           ]
         },
         {
           "id": 9,
-          "title": "En Fallout 4, ¿con quién te encuentras en la parada Red Rocket?",
+          "title": "¿Qué rasgo romántico garantiza que un Sim tenga más éxito en el amor?",
           "bonus": false,
           "answers": [
             {
-              "text": "Enclave",
-              "isCorrect": false
-            },
-            {
-              "text": "Albóndiga",
+              "text": "Romántico",
               "isCorrect": true
             },
             {
-              "text": "Hermandad De Acero",
+              "text": "Extrovertido",
+              "isCorrect": false
+            },
+            {
+              "text": "Alegre",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 10,
-          "title": "¿En qué entrega de Fallout debes encontrar a tu padre?",
+          "title": "¿Qué tipo de Sim puede usar el poder de 'Fascinar'?",
           "bonus": false,
           "answers": [
             {
-              "text": "2",
-              "isCorrect": false
-            },
-            {
-              "text": "3",
+              "text": "Vampiros",
               "isCorrect": true
             },
             {
-              "text": "4",
+              "text": "Hechiceros",
               "isCorrect": false
+            },
+            {
+              "text": "Extraterrestres",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "title": "¿Qué interacción romántica provoca que otro Sim se sonroje?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Chiste romántico",
+              "isCorrect": false
+            },
+            {
+              "text": "Coquetear",
+              "isCorrect": false
+            },
+            {
+              "text": "Tomar de las manos",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "title": "¿Qué expansión introdujo bodas en la playa?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "¡Sí, Quiero!",
+              "isCorrect": true
+            },
+            {
+              "text": "Mi Boda Perfecta",
+              "isCorrect": false
+            },
+            {
+              "text": "Playa",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "title": "¿Cómo puede un Sim pedir ser 'pareja oficial'?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Llamando por teléfono",
+              "isCorrect": false
+            },
+            {
+              "text": "Regalando una rosa",
+              "isCorrect": false
+            },
+            {
+              "text": "Pedir ser novios'",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "title": "¿Qué objeto aumenta más rápido la relación romántica al usarse?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Sofá",
+              "isCorrect": false
+            },
+            {
+              "text": "Piscina",
+              "isCorrect": false
+            },
+            {
+              "text": "Jacuzzi",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "title": "¿Qué estado romántico puede causar celos en otro Sim?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Ternura",
+              "isCorrect": false
+            },
+            {
+              "text": "Confianza",
+              "isCorrect": false
+            },
+            {
+              "text": "Amante secreto",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "title": "¿Cómo se llama la habilidad que mejora las interacciones románticas?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Carisma",
+              "isCorrect": true
+            },
+            {
+              "text": "Coquetería",
+              "isCorrect": false
+            },
+            {
+              "text": "Seducción",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "title": "¿Qué poción hace que un Sim se enamore instantáneamente?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Poción de amor",
+              "isCorrect": false
+            },
+            {
+              "text": "Poción de coqueteo",
+              "isCorrect": true
+            },
+            {
+              "text": "Poción de emociones",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "title": "¿Qué puede hacer un Sim para disculparse después de una pelea romántica?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Chiste romántico",
+              "isCorrect": false
+            },
+            {
+              "text": "Pedir disculpas sinceras",
+              "isCorrect": true
+            },
+            {
+              "text": "Dar un regalo caro",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "title": "¿Que es hacer Ñiqui Ñiqui?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Abrazarse",
+              "isCorrect": false
+            },
+            {
+              "text": "Besarse",
+              "isCorrect": false
+            },
+            {
+              "text": "Intimidad Física",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "title": "¿Cómo hacer que dos Sims se divorcien?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Lo engañas",
+              "isCorrect": false
+            },
+            {
+              "text": "Le cuentas chistes",
+              "isCorrect": false
+            },
+            {
+              "text": "Le pides el divorcio",
+              "isCorrect": true
             }
           ]
         }
@@ -566,196 +947,424 @@
     },
     {
       "id": 3,
-      "name": "TECNO",
-      "imgURL": "/img/categoria-tecno.webp",
-      "bonus": true,
+      "name": "Cómo se llama?",
+      "imgURL": "/img/categoria-comosellama.webp",
+      "bonus": false,
       "questions": [
         {
           "id": 1,
-          "title": "¿De dónde viene la empresa Huawei?",
+          "title": "El juego de de puzles de aventura está inspirado en la canción 'Drive Home' de Steven Wilson",
           "bonus": false,
           "answers": [
             {
-              "text": "Taiwán",
+              "text": "The Last of Us",
               "isCorrect": false
             },
             {
-              "text": "China",
+              "text": "The Last Day of June",
               "isCorrect": true
             },
             {
-              "text": "Japón",
+              "text": "Day with Carl",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 2,
-          "title": "¿De qué país proviene la empresa Sony?",
+          "title": "Un juego interactivo en la que recorreremos el devenir de una pareja",
           "bonus": false,
           "answers": [
             {
-              "text": "Corea del Sur",
-              "isCorrect": false
-            },
-            {
-              "text": "Japón",
+              "text": "Florence",
               "isCorrect": true
             },
             {
-              "text": "Estados Unidos",
+              "text": "Fiona",
+              "isCorrect": false
+            },
+            {
+              "text": "Frankie",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 3,
-          "title": "¿Cuál es la versión sucesora del sistema operativo Windows 8?",
+          "title": "Una pareja busca de materiales para reparar su nave en un planeta desconocido",
           "bonus": false,
           "answers": [
             {
-              "text": "Windows 10",
+              "text": "Heaven",
+              "isCorrect": false
+            },
+            {
+              "text": "Halo",
+              "isCorrect": false
+            },
+            {
+              "text": "Haven",
               "isCorrect": true
-            },
-            {
-              "text": "Windows 12",
-              "isCorrect": false
-            },
-            {
-              "text": "Windows 9",
-              "isCorrect": false
             }
           ]
         },
         {
           "id": 4,
-          "title": "Samsung es una empresa de tecnología proveniente de Asia... ¿de qué país es?",
+          "title": "Una historia de amor entre el protagonista y su amor de la infancia",
           "bonus": false,
           "answers": [
             {
-              "text": "Corea del Sur",
-              "isCorrect": true
-            },
-            {
-              "text": "China",
+              "text": "To the Stars",
               "isCorrect": false
             },
             {
-              "text": "Japón",
+              "text": "To the Moon",
+              "isCorrect": true
+            },
+            {
+              "text": "To the Sun",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 5,
-          "title": "Spotify es una aplicación de …",
+          "title": "La protagonista tiene que derrotar a monstruos, que toman forma de personas con las que surge el amor",
           "bonus": false,
           "answers": [
             {
-              "text": "Series y películas",
+              "text": "Boyfriend Monster",
               "isCorrect": false
             },
             {
-              "text": "Música",
+              "text": "Boyfriend Dragon",
+              "isCorrect": false
+            },
+            {
+              "text": "Boyfriend Dungeon",
               "isCorrect": true
-            },
-            {
-              "text": "Lectura",
-              "isCorrect": false
             }
           ]
         },
         {
           "id": 6,
-          "title": "El primer iPhone salió en al año…",
+          "title": "Un holocausto zombie no es excusa para no enamorarse",
           "bonus": false,
           "answers": [
             {
-              "text": "2007",
+              "text": "The Last of Us",
               "isCorrect": true
             },
             {
-              "text": "2006",
+              "text": "Zombie Army",
               "isCorrect": false
             },
             {
-              "text": "2010",
+              "text": "Daymare: 1994 Sandcastle",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 7,
-          "title": "¿En qué año fue fundado Facebook?",
+          "title": "En esta visual novel tú como protagonista coqueteas con el vecino",
           "bonus": false,
           "answers": [
             {
-              "text": "1985",
+              "text": "Our Life Together",
               "isCorrect": false
             },
             {
-              "text": "1999",
+              "text": "Our Life Now",
               "isCorrect": false
             },
             {
-              "text": "2004",
+              "text": "Our Life: Beginnings & Always",
               "isCorrect": true
             }
           ]
         },
         {
           "id": 8,
-          "title": "¿Cuál de estos servicios de streaming NO existe?",
+          "title": "Un walking simulator que cuenta un romance adolescente con esa intensidad propia de la edad",
           "bonus": false,
           "answers": [
             {
-              "text": "Netflix",
+              "text": "Gonne Home",
               "isCorrect": false
             },
             {
-              "text": "Nickelodeon +",
+              "text": "Gone Home",
               "isCorrect": true
             },
             {
-              "text": "Disney +",
+              "text": "Go Home",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 9,
-          "title": "El sistema operativo Windows fue creado por…",
+          "title": "Habla de cómo siempre es posible encontrar a alguien que te acompañe, aunque viva en un mundo paralelo",
           "bonus": false,
           "answers": [
             {
-              "text": "Microsoft",
+              "text": "Broken Age",
               "isCorrect": true
             },
             {
-              "text": "IBM",
+              "text": "Perfect Age",
               "isCorrect": false
             },
             {
-              "text": "Linux",
+              "text": "Favourite Age",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 10,
-          "title": "¿Qué significa la tecla Ctrl en los teclados de computadora?",
+          "title": "Un juego simulador de citas de ambiente lovecraftiano",
           "bonus": false,
           "answers": [
             {
-              "text": "Central",
+              "text": "Sucker For Love: The Date",
               "isCorrect": false
             },
             {
-              "text": "Control",
+              "text": "Sucker For Love: Last Date",
+              "isCorrect": false
+            },
+            {
+              "text": "Sucker For Love: First Date",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "title": "Más que un juego romántico per se, estamos ante un simulador de citas con padres solteros como protagonistas",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Sugar Daddy",
+              "isCorrect": false
+            },
+            {
+              "text": "Dream Daddy",
               "isCorrect": true
             },
             {
-              "text": "Code L",
+              "text": "Daddy Daddy",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "title": "Un farm simulator que nos permite tener citas y establecer relaciones en un entorno rural",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Stardew Valley",
+              "isCorrect": true
+            },
+            {
+              "text": "Stard Valley",
+              "isCorrect": false
+            },
+            {
+              "text": "Stuart Valley",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "title": "Un videojuego experimental diseñado para dos jugadores, descritos como 'amantes separados por años luz de distancia'",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Bientot l'ete",
+              "isCorrect": false
+            },
+            {
+              "text": "Bientot l'eté",
+              "isCorrect": false
+            },
+            {
+              "text": "Bientot l'été",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "title": "Enseñar a los jugadores comportarse en diferentes situaciones y lograr establecer parejas potenciales",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "The Seducer 2",
+              "isCorrect": false
+            },
+            {
+              "text": "Super Seducer 2",
+              "isCorrect": true
+            },
+            {
+              "text": "Seducer 2",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "title": "Una chica es invitada a estudiar en un prestigioso instituto de palomas y allí encuentra el amor",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Hatoful Boyfriend",
+              "isCorrect": true
+            },
+            {
+              "text": "Dove Boyfriend",
+              "isCorrect": false
+            },
+            {
+              "text": "My Dream Boyfriend",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "title": "Un juego de citas y acción que mezcla una historia de amor con combates provocados por la adrenalina",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Eternight",
+              "isCorrect": false
+            },
+            {
+              "text": "Eternights",
+              "isCorrect": true
+            },
+            {
+              "text": "Etermight",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "title": "Un simulador de citas que propone grabar y producir el reality de 1999",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Temptation Island",
+              "isCorrect": false
+            },
+            {
+              "text": "Too Hot to Handle",
+              "isCorrect": false
+            },
+            {
+              "text": "The Crush House",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "title": "Es una comedia romántica en forma de aventura de rol, bajo una estética gráfica pixel-art en 3D",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Half Fate",
+              "isCorrect": false
+            },
+            {
+              "text": "Half Past Fate",
+              "isCorrect": true
+            },
+            {
+              "text": "Past",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "title": "Podemos crear nuestros propios personajes y éstos pueden vivir una vida completa",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Alter Life",
+              "isCorrect": false
+            },
+            {
+              "text": "Life Is Strange",
+              "isCorrect": false
+            },
+            {
+              "text": "The Sims",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "title": "Un fontanero italiano tiene siempre como misión salvar a una princesa de las manos de un villano",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Mario Kart",
+              "isCorrect": false
+            },
+            {
+              "text": "Mario Bros",
+              "isCorrect": true
+            },
+            {
+              "text": "Mario Super",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "title": "Un romance de valentía y sacrificio en una aventura de acción y fantasía épica",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Songbringer",
+              "isCorrect": false
+            },
+            {
+              "text": "Legend of the Skyfish",
+              "isCorrect": false
+            },
+            {
+              "text": "The Legend of Zelda",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "title": "Romances épicos y emocionales que atraviesan sacrificio, magia y destinos",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Final Fantasy",
+              "isCorrect": true
+            },
+            {
+              "text": "Lethal Fantasy",
+              "isCorrect": false
+            },
+            {
+              "text": "Finish Fantasy",
               "isCorrect": false
             }
           ]
@@ -764,196 +1373,348 @@
     },
     {
       "id": 4,
-      "name": "RETRO",
-      "imgURL": "/img/categoria-retro.webp",
-      "bonus": true,
+      "name": "Parejas",
+      "imgURL": "/img/categoria-parejas.webp",
+      "bonus": false,
       "questions": [
         {
           "id": 1,
-          "title": "¿Qué año salió el Atari 2600?",
+          "title": "A qué juego pertenece esta pareja: Zelda y Link",
           "bonus": false,
           "answers": [
             {
-              "text": "1982",
+              "text": "Zelda's Legend",
+              "isCorrect": false
+            },
+            {
+              "text": "Zelda: The Legend",
+              "isCorrect": false
+            },
+            {
+              "text": "The Legend of Zelda",
               "isCorrect": true
-            },
-            {
-              "text": "1983",
-              "isCorrect": false
-            },
-            {
-              "text": "1984",
-              "isCorrect": false
             }
           ]
         },
         {
           "id": 2,
-          "title": "¿Cuál de estas consolas fue creada por SEGA?",
+          "title": "A qué juego pertenece esta pareja: Master Chief y Cortana",
           "bonus": false,
           "answers": [
             {
-              "text": "Super Nintendo",
-              "isCorrect": false
-            },
-            {
-              "text": "PlayStation",
-              "isCorrect": false
-            },
-            {
-              "text": "Mega Drive",
+              "text": "Halo",
               "isCorrect": true
+            },
+            {
+              "text": "Hell",
+              "isCorrect": false
+            },
+            {
+              "text": "Hilt",
+              "isCorrect": false
             }
           ]
         },
         {
           "id": 3,
-          "title": "¿Cuál fue la primera consola de videojuegos portátil?",
+          "title": "A qué juego pertenece esta pareja: Spider-Man y MJ",
           "bonus": false,
           "answers": [
             {
-              "text": "Game Boy",
-              "isCorrect": true
-            },
-            {
-              "text": "Atari Lynx",
+              "text": "The Amazing Spider-Man",
               "isCorrect": false
             },
             {
-              "text": "PSP",
+              "text": "Marvel’s Spider-Man",
+              "isCorrect": true
+            },
+            {
+              "text": "Spider-Man",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 4,
-          "title": "¿Qué consola utilizó cartuchos en vez de discos para sus juegos?",
+          "title": "A qué juego pertenece esta pareja: Elena Fisher y Nathan Drake",
           "bonus": false,
           "answers": [
             {
-              "text": "PlayStation",
+              "text": "Unchartere",
               "isCorrect": false
             },
             {
-              "text": "Xbox",
+              "text": "Unchartered",
               "isCorrect": false
             },
             {
-              "text": "Nintendo 64",
+              "text": "Uncharted",
               "isCorrect": true
             }
           ]
         },
         {
           "id": 5,
-          "title": "¿Cuál fue la consola más vendida de todos los tiempos?",
+          "title": "A qué juego pertenece esta pareja: Dominic y Maria Santiago",
           "bonus": false,
           "answers": [
             {
-              "text": "PlayStation 2",
+              "text": "Gears of War",
               "isCorrect": true
             },
             {
-              "text": "Xbox 360",
+              "text": "Pears of War",
               "isCorrect": false
             },
             {
-              "text": "Nintendo Switch",
+              "text": "Tears of War",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 6,
-          "title": "¿En qué año se lanzó la consola PlayStation original?",
+          "title": "A qué juego pertenece esta pareja: Ada y León Kennedy",
           "bonus": false,
           "answers": [
             {
-              "text": "1993",
+              "text": "Recident Evil",
               "isCorrect": false
             },
             {
-              "text": "1994",
+              "text": "Resident Evill",
+              "isCorrect": false
+            },
+            {
+              "text": "Resident Evil",
               "isCorrect": true
-            },
-            {
-              "text": "1995",
-              "isCorrect": false
             }
           ]
         },
         {
           "id": 7,
-          "title": "¿Cuál de estas consolas pertenece a la familia de Nintendo?",
+          "title": "A qué juego pertenece esta pareja: Sora y Kairi",
           "bonus": false,
           "answers": [
             {
-              "text": "Dreamcast",
+              "text": "The Kingdom Hearts",
               "isCorrect": false
             },
             {
-              "text": "GameCube",
+              "text": "Kingdom Hearts",
               "isCorrect": true
             },
             {
-              "text": "Genesis",
+              "text": "Kingdom Heart",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 8,
-          "title": "¿Qué compañía desarrolló la consola Atari 2600?",
+          "title": "A qué juego pertenece esta pareja: Carl y June",
           "bonus": false,
           "answers": [
             {
-              "text": "Atari",
+              "text": "Last Day of Carl",
+              "isCorrect": false
+            },
+            {
+              "text": "Last Day of us",
+              "isCorrect": false
+            },
+            {
+              "text": "Last Day of June",
               "isCorrect": true
-            },
-            {
-              "text": "Nintendo",
-              "isCorrect": false
-            },
-            {
-              "text": "SEGA",
-              "isCorrect": false
             }
           ]
         },
         {
           "id": 9,
-          "title": "¿Qué consola tenía el eslogan 'It's thinking'?",
+          "title": "¿Quién es la pareja de Donkey Kong?",
           "bonus": false,
           "answers": [
             {
-              "text": "PlayStation",
+              "text": "Dixie Kong",
               "isCorrect": false
             },
             {
-              "text": "Dreamcast",
+              "text": "Candy Kong",
               "isCorrect": true
             },
             {
-              "text": "Game Boy",
+              "text": "Pauline Kong",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 10,
-          "title": "¿Cuál fue la primera consola de videojuegos con gráficos 16-bit?",
+          "title": "¿Quién es la pareja de Yuna de Final Fantasy?",
           "bonus": false,
           "answers": [
             {
-              "text": "Super Nintendo",
+              "text": "Tidus",
               "isCorrect": true
             },
             {
-              "text": "NES",
+              "text": "Tate",
               "isCorrect": false
             },
             {
-              "text": "Atari 7800",
+              "text": "Till",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "title": "¿Quién es la pareja de Ellie de The Last of Us?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Diana",
+              "isCorrect": false
+            },
+            {
+              "text": "Daiana",
+              "isCorrect": false
+            },
+            {
+              "text": "Dina",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "title": "¿Quién es la pareja de Bandage Girl de Super Meat Boy?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Meat Boy",
+              "isCorrect": false
+            },
+            {
+              "text": "Super Meat Boy",
+              "isCorrect": true
+            },
+            {
+              "text": "Boy",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "title": "¿Quién es la pareja de Kay de Haven?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Yu",
+              "isCorrect": true
+            },
+            {
+              "text": "Yuu",
+              "isCorrect": false
+            },
+            {
+              "text": "Yui",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "title": "¿Quién es la pareja de Silvia de Viewtiful Joe?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Joe",
+              "isCorrect": true
+            },
+            {
+              "text": "John",
+              "isCorrect": false
+            },
+            {
+              "text": "Joey",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "title": "¿Quién es la pareja de Viewtiful Joe de Monkey Island?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Elena",
+              "isCorrect": false
+            },
+            {
+              "text": "Elaine",
+              "isCorrect": true
+            },
+            {
+              "text": "Eline",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "title": "¿Quién es la pareja de Ezio Auditore de Assassin’s Creed: Revelations?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Sofia Sarto",
+              "isCorrect": false
+            },
+            {
+              "text": "Sofia Sator",
+              "isCorrect": false
+            },
+            {
+              "text": "Sofia Sartor",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "title": "¿Quién es la pareja de  Chloe Price de Life is Strange?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Maxine Caulfield",
+              "isCorrect": true
+            },
+            {
+              "text": "Maximilian Caulfield",
+              "isCorrect": false
+            },
+            {
+              "text": "Maxin Caulfield",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "title": "¿Quién es la pareja de Yennefer de The Witcher?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Gerald",
+              "isCorrect": false
+            },
+            {
+              "text": "Geralt",
+              "isCorrect": true
+            },
+            {
+              "text": "Geral",
               "isCorrect": false
             }
           ]
@@ -962,196 +1723,386 @@
     },
     {
       "id": 5,
-      "name": "GAMERS",
-      "imgURL": "/img/categoria-gamers.webp",
-      "bonus": true,
+      "name": "San Valentín",
+      "imgURL": "/img/categoria-san-valentin.webp",
+      "bonus": false,
       "questions": [
         {
           "id": 1,
-          "title": "¿A qué equipo de Esports pertenece el gamer Jeanki?",
+          "title": "¿En qué siglo comenzó a celebrarse el Día de San Valentín?",
           "bonus": false,
           "answers": [
             {
-              "text": "Krü",
-              "isCorrect": false
-            },
-            {
-              "text": "Leviatán",
-              "isCorrect": false
-            },
-            {
-              "text": "Naguará",
+              "text": "Siglo XIV",
               "isCorrect": true
+            },
+            {
+              "text": "Siglo XVIII",
+              "isCorrect": false
+            },
+            {
+              "text": "Siglo XIX",
+              "isCorrect": false
             }
           ]
         },
         {
           "id": 2,
-          "title": "¿Qué gamer acompaña a Jeanki en el equipo Naguará?",
+          "title": "¿Qué religión está asociada con San Valentín?",
           "bonus": false,
           "answers": [
             {
-              "text": "Yolo",
+              "text": "Islam",
               "isCorrect": false
             },
             {
-              "text": "Punicher",
+              "text": "Cristianismo",
               "isCorrect": true
             },
             {
-              "text": "BarcaGamer",
+              "text": "Hinduismo",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 3,
-          "title": "¿Cuál es la nacionalidad del gamer Jeanki?",
+          "title": "¿Qué país es conocido por popularizar tarjetas de San Valentín?",
           "bonus": false,
           "answers": [
             {
-              "text": "Venezuela",
+              "text": "Francia",
+              "isCorrect": false
+            },
+            {
+              "text": "Italia",
+              "isCorrect": false
+            },
+            {
+              "text": "Estados Unidos",
               "isCorrect": true
-            },
-            {
-              "text": "Colombia",
-              "isCorrect": false
-            },
-            {
-              "text": "México",
-              "isCorrect": false
             }
           ]
         },
         {
           "id": 4,
-          "title": "¿Con qué juego se hizo conocido Jeanki?",
+          "title": "¿Qué flor es el símbolo tradicional de San Valentín?",
           "bonus": false,
           "answers": [
             {
-              "text": "Fortnite",
+              "text": "Margarita",
               "isCorrect": false
             },
             {
-              "text": "Free Fire",
+              "text": "Rosa",
               "isCorrect": true
             },
             {
-              "text": "Minecraft",
+              "text": "Lirio",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 5,
-          "title": "¿Sobre qué tratan los últimos videos que Jeanki subió a su canal de YouTube?",
+          "title": "¿Qué figura alada está asociada con San Valentín?",
           "bonus": false,
           "answers": [
             {
-              "text": "FC Mobile",
+              "text": "Cupido",
               "isCorrect": true
             },
             {
-              "text": "Ea Sports FC24",
+              "text": "Pegaso",
               "isCorrect": false
             },
             {
-              "text": "eFootball",
+              "text": "Zeus",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 6,
-          "title": "¿A qué equipo quiere ingresar Jeanki gracias a la ayuda de Team Gamers?",
+          "title": "¿Qué color simboliza el amor y la pasión en San Valentín?",
           "bonus": false,
           "answers": [
             {
-              "text": "Porcinos FC",
+              "text": "Azul",
               "isCorrect": false
             },
             {
-              "text": "Los Chamos FC",
+              "text": "Rojo",
               "isCorrect": true
             },
             {
-              "text": "Rayados FC",
+              "text": "Amarillo",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 7,
-          "title": "¿Cómo se llama el gamer venezolano que suele acompañar a Jeanki en sus videos?",
+          "title": "¿Qué día se celebra San Valentín?",
           "bonus": false,
           "answers": [
             {
-              "text": "Dojo Play",
+              "text": "12 de febrero",
               "isCorrect": false
             },
             {
-              "text": "Eloy TocaBlock",
+              "text": "13 de febrero",
               "isCorrect": false
             },
             {
-              "text": "TheHectorino",
+              "text": "14 de febrero",
               "isCorrect": true
             }
           ]
         },
         {
           "id": 8,
-          "title": "¿Cuántos seguidores tiene Jeanki en su canal de YouTube?",
+          "title": "¿Qué frase es típica de las tarjetas de San Valentín?",
           "bonus": false,
           "answers": [
             {
-              "text": "3 millones",
-              "isCorrect": false
-            },
-            {
-              "text": "5 millones",
+              "text": "'Sé mi Valentín'",
               "isCorrect": true
             },
             {
-              "text": "7 millones",
+              "text": "'Buena suerte'",
+              "isCorrect": false
+            },
+            {
+              "text": "'Seamos amigos'",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 9,
-          "title": "¿Qué contenido exclusivo creó Jeanki para Team Gamers?",
+          "title": "¿Qué palabra se asocia con Cupido?",
           "bonus": false,
           "answers": [
             {
-              "text": "Un video con tips",
+              "text": "Alas",
               "isCorrect": false
             },
             {
-              "text": "Un streaming",
+              "text": "Rosas",
               "isCorrect": false
             },
             {
-              "text": "Una entrevista",
+              "text": "Flechas",
               "isCorrect": true
             }
           ]
         },
         {
           "id": 10,
-          "title": "¿En qué año nació Jeanki?",
+          "title": "¿Cuál es el regalo más común en San Valentín?",
           "bonus": false,
           "answers": [
             {
-              "text": "1998",
+              "text": "Relojes",
               "isCorrect": false
             },
             {
-              "text": "2000",
+              "text": "Chocolates",
               "isCorrect": true
             },
             {
-              "text": "2002",
+              "text": "Perfumes",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "title": "¿Quién recibe más regalos en San Valentín?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Mascotas",
+              "isCorrect": false
+            },
+            {
+              "text": "Amigos",
+              "isCorrect": false
+            },
+            {
+              "text": "Parejas",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "title": "¿Qué símbolo representa el amor eterno?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "El lazo infinito",
+              "isCorrect": true
+            },
+            {
+              "text": "El sol",
+              "isCorrect": false
+            },
+            {
+              "text": "Una estrella",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "title": "¿Qué significa 'amor a primera vista'?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Amor eterno",
+              "isCorrect": false
+            },
+            {
+              "text": "Enamorarse al instante",
+              "isCorrect": true
+            },
+            {
+              "text": "Relación larga",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "title": "¿Qué forma geométrica representa el amor?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Círculo",
+              "isCorrect": false
+            },
+            {
+              "text": "Triángulo",
+              "isCorrect": false
+            },
+            {
+              "text": "Corazón",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "title": "¿En Japón, quienes regalan chocolates en San Valentín?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Los hombres",
+              "isCorrect": false
+            },
+            {
+              "text": "Las mujeres",
+              "isCorrect": true
+            },
+            {
+              "text": "Ambos por igual",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "title": "¿Qué símbolo de amor es típico colgar en los puentes?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Flores",
+              "isCorrect": false
+            },
+            {
+              "text": "Listones rojos",
+              "isCorrect": false
+            },
+            {
+              "text": "Candados",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "title": "¿Qué país celebra el Día Blanco un mes después de San Valentín?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Corea del Sur",
+              "isCorrect": true
+            },
+            {
+              "text": "Canadá",
+              "isCorrect": false
+            },
+            {
+              "text": "Francia",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "title": "¿Qué película dice 'Amar significa nunca tener que decir que lo sientes'?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Love Story",
+              "isCorrect": true
+            },
+            {
+              "text": "Ghost",
+              "isCorrect": false
+            },
+            {
+              "text": "El diario de una pasión",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "title": "¿Qué película sigue las historias de varias parejas el 14 de febrero?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Día de los Enamorados",
+              "isCorrect": true
+            },
+            {
+              "text": "Historias de amor",
+              "isCorrect": false
+            },
+            {
+              "text": "Siempre el mismo día",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "title": "¿En qué película romántica se celebra un pacto para evitar el Día de San Valentín?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Día de los Enamorados",
+              "isCorrect": false
+            },
+            {
+              "text": "Valentine's Again",
+              "isCorrect": true
+            },
+            {
+              "text": "Una cita con el destino",
               "isCorrect": false
             }
           ]

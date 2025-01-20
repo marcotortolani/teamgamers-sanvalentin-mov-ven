@@ -18,10 +18,8 @@ export function GameFooter() {
     <motion.footer
       initial={{ y: 200 }}
       animate={{ y: 0, transition: { duration: 0.5 } }}
-      className="z-0 p-2 bg-black"
-      style={{
-        backgroundColor: colors.background,
-      }}
+      className="z-0 p-2 bg-transparent"
+     
     >
       <div className="w-full max-w-3xl mx-auto mb-2 flex justify-between items-center gap-4 ">
         <Button
