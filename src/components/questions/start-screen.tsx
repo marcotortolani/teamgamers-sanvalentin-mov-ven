@@ -57,7 +57,7 @@ export const StartScreen = () => {
         <img
           src={goldenRing}
           alt="Ring wheel"
-          className=" absolute z-50 w-full h-full p-3  "
+          className=" absolute z-50 w-full h-full p-1  "
         />
         {selectedCategory?.image ? (
           <img
