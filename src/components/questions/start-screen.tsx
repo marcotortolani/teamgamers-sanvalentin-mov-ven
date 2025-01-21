@@ -18,7 +18,9 @@ export const StartScreen = () => {
 
   const handleBegin = () => {
     if (soundActive) playButton()
-    setGameState({ currentState: 'PLAYING' })
+    setTimeout(() => {
+      setGameState({ currentState: 'PLAYING' })
+    }, 100)
   }
 
   return (
@@ -43,15 +45,15 @@ export const StartScreen = () => {
       >
         {selectedCategory?.name}
       </h2>
-      <motion.div
+      <div
         key="category-selected"
-        initial={{ opacity: 0, scale: 0.5, rotate: -900 }}
-        animate={{
-          opacity: 1,
-          scale: 1,
-          rotate: 0,
-          transition: { duration: 0.75, ease: 'easeInOut', delay: 0.25 },
-        }}
+        // initial={{ opacity: 0, scale: 0.5, rotate: -900 }}
+        // animate={{
+        //   opacity: 1,
+        //   scale: 1,
+        //   rotate: 0,
+        //   transition: { duration: 0.25, ease: 'easeInOut' },
+        // }}
         className=" relative w-3/5 max-w-[300px] my-4 aspect-square"
       >
         <img
@@ -71,7 +73,7 @@ export const StartScreen = () => {
             style={{ backgroundColor: colors.primary }}
           ></div>
         )}
-      </motion.div>
+      </div>
 
       <Button
         onClick={handleBegin}

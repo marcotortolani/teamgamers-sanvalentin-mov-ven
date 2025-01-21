@@ -148,8 +148,6 @@ export function CardQuestion({
                 selectedAnswer={selectedAnswer}
                 timeUp={timeUp}
                 onSelectAnswer={() => {
-                  console.log(' click button answer')
-
                   handleAnswer({ index, isCorrect: answer.isCorrect })
                 }}
                 questionHasBonus={currentQuestion?.bonus ?? false}
