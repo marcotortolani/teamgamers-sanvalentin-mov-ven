@@ -48,6 +48,7 @@ const MedalsSection = () => {
   const { colors, config, categories } = useConfigStore()
   const { score } = useGameStore()
 
+
   const totalQuestionsGame = categories.reduce((total, category) => {
     return total + category.questions.length
   }, 0)
@@ -78,6 +79,7 @@ const MedalsSection = () => {
         config.pointsCorrect,
     },
   ]
+
   return (
     <section className="px-4">
       <motion.h2
@@ -241,7 +243,7 @@ const RankingSection = () => {
   rankingData.push({
     name: user.userName,
     image: user.userAvatar,
-    score: score + 14500,
+    score: score,
   })
 
   rankingData.sort((a, b) => b.score - a.score)
