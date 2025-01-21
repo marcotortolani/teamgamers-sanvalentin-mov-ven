@@ -186,7 +186,7 @@ export function PlayingScreen() {
         )}
         {state === 'changeCategoryModal' && (
           <ModalChangeCategory
-            onRoulette={() => navigate('/')}
+            onRoulette={() => (window.document.location.href = '/')}
             onCloseModal={() => send('STAY')}
             onDontAskAgain={() => send('DONT_ASK_AGAIN')}
           />
