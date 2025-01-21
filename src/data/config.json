@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-01-20 12:25:00",
+  "lastUpdated": "2025-01-21 12:00:00",
   "userData": {
     "userId": "",
     "userName": "",
@@ -14,7 +14,7 @@
   },
   "config": {
     "triesAllowedPerDay": 20000000,
-    "countdownSeconds": 10,
+    "countdownSeconds": 15,
     "amountAnswersToChangeCategory": 3,
     "pointsCorrect": 1000,
     "pointsWrong": 500,
