@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { useNavigate } from 'react-router-dom'
+//import { useNavigate } from 'react-router-dom'
 import { useGameStore } from '@/lib/game-store'
 import { Button } from '@/components/ui/button'
 import { AnimateProgressive, AnimateSwitch } from './animated-number'
@@ -7,25 +7,30 @@ import { useQuestionsAnswered } from '@/hooks/useQuestionsAnswered'
 import { useConfigStore } from '@/lib/config-store'
 
 export function GameFooter() {
-  const navigate = useNavigate()
+  //const navigate = useNavigate()
   const { colors, images } = useConfigStore()
   const { score, selectedCategory } = useGameStore()
   const { questionsAnswered, totalQuestions } = useQuestionsAnswered(
     selectedCategory?.id
   )
 
+  function handleHomeClick() {
+    //if (soundActive) playPop()
+    // navigate('/')
+    window.document.location.href = '/'
+  }
+
   return (
     <motion.footer
       initial={{ y: 200 }}
       animate={{ y: 0, transition: { duration: 0.5 } }}
       className="z-0 p-2 bg-transparent"
-     
     >
       <div className="w-full max-w-3xl mx-auto mb-2 flex justify-between items-center gap-4 ">
         <Button
           variant="ghost"
           size="icon"
-          onClick={() => navigate('/')}
+          onClick={handleHomeClick}
           className=" w-36 md:w-40 h-full -mr-4 p-0 hover:bg-transparent active:bg-transparent hover:scale-105 active:scale-100 transition-all duration-150 ease-in-out"
         >
           <img

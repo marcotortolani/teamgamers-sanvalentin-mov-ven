@@ -18,9 +18,7 @@ export const StartScreen = () => {
 
   const handleBegin = () => {
     if (soundActive) playButton()
-    setTimeout(() => {
-      setGameState({ currentState: 'PLAYING' })
-    }, 100)
+    setGameState({ currentState: 'PLAYING' })
   }
 
   return (
