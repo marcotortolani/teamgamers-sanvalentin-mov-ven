@@ -1,7 +1,6 @@
 import useSound from 'use-sound'
 import { motion } from 'framer-motion'
-//import { useNavigate } from 'react-router-dom'
-import { useQuestionStore } from '@/lib/questions/questions-store'
+
 import { useConfigStore } from '@/lib/config-store'
 import { useGameStore } from '@/lib/game-store'
 import Confetti from 'react-confetti'
@@ -11,8 +10,6 @@ import blopSound from '@/assets/sound/blop.mp3'
 import successTrumpets from '@/assets/sound/success-trumpets.mp3'
 
 export default function CategoryCompleted() {
-  //const navigate = useNavigate()
-  const { resetGameState } = useQuestionStore()
   const { colors, soundActive } = useConfigStore()
 
   const gameCompleted = useGameStore((state) =>
@@ -65,9 +62,9 @@ export default function CategoryCompleted() {
                 }, 200)
               }
             }
-            resetGameState()
-            // navigate('/')
             window.document.location.href = '/'
+            //resetGameState()
+            // navigate('/')
           }}
         >
           Girar la ruleta
