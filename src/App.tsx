@@ -7,6 +7,7 @@ import { useGameStore } from './lib/game-store'
 
 //import { ENDPOINT_CONFIG } from './data/constants'
 import configData from './data/config.json'
+import { ConfigData } from './types/type-config-data'
 
 //const Loading = lazy(() => import('./components/loading'))
 const ValidPeriod = lazy(() => import('./components/game-valid-period'))
@@ -49,7 +50,7 @@ export default function App() {
   useEffect(() => {
     if (!configData) return
     if (configData?.lastUpdated === lastUpdated) return
-    updateConfigData(configData)
+    updateConfigData(configData as ConfigData)
     updateDataEndpoint({
       gameHash: gameHash,
       userHash: userHash,

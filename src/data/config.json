@@ -1,5 +1,6 @@
 {
   "lastUpdated": "2025-01-21 12:00:00",
+  "lang": "es",
   "userData": {
     "userId": "",
     "userName": "",
@@ -58,11 +59,15 @@
           "name": "prize"
         },
         {
-          "src": "/img/premio01.webp",
+          "src": "/img/premio02.webp",
           "name": "prize"
         },
         {
-          "src": "/img/premio01.webp",
+          "src": "/img/premio03.webp",
+          "name": "prize"
+        },
+        {
+          "src": "/img/premio04.webp",
           "name": "prize"
         }
       ]

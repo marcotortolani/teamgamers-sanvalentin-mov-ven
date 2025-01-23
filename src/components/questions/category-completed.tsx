@@ -19,6 +19,19 @@ export default function CategoryCompleted() {
   const [playButton] = useSound(blopSound)
   const [playSuccess] = useSound(successTrumpets)
 
+  function handleClick() {
+    if (soundActive) {
+      playButton()
+      if (gameCompleted) {
+        setTimeout(() => {
+          playSuccess()
+        }, 200)
+      }
+    }
+    window.document.location.href = '/'
+    // navigate('/')
+  }
+
   return (
     <motion.div
       key="cat-completed"
@@ -53,19 +66,7 @@ export default function CategoryCompleted() {
             background: `linear-gradient(180deg, ${colors.primary} 60%, rgba(0, 0, 0, 1) 150%)`,
             color: colors.text,
           }}
-          onClick={() => {
-            if (soundActive) {
-              playButton()
-              if (gameCompleted) {
-                setTimeout(() => {
-                  playSuccess()
-                }, 200)
-              }
-            }
-            window.document.location.href = '/'
-            //resetGameState()
-            // navigate('/')
-          }}
+          onClick={handleClick}
         >
           Girar la ruleta
         </Button>

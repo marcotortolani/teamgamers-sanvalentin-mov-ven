@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import useSound from 'use-sound'
 //import { useNavigate } from 'react-router-dom'
 import { useGameStore } from '@/lib/game-store'
 import { Button } from '@/components/ui/button'
@@ -6,16 +7,20 @@ import { AnimateProgressive, AnimateSwitch } from './animated-number'
 import { useQuestionsAnswered } from '@/hooks/useQuestionsAnswered'
 import { useConfigStore } from '@/lib/config-store'
 
+import blopSound from '@/assets/sound/blop.mp3'
+
 export function GameFooter() {
   //const navigate = useNavigate()
-  const { colors, images } = useConfigStore()
+  const { colors, images, soundActive } = useConfigStore()
   const { score, selectedCategory } = useGameStore()
   const { questionsAnswered, totalQuestions } = useQuestionsAnswered(
     selectedCategory?.id
   )
 
+  const [playButton] = useSound(blopSound)
+
   function handleHomeClick() {
-    //if (soundActive) playPop()
+    if (soundActive) playButton()
     // navigate('/')
     window.document.location.href = '/'
   }
