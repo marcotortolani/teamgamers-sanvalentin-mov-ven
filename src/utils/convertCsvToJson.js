@@ -5,28 +5,34 @@ export async function parseCSVToQuestions() {
     'https://docs.google.com/spreadsheets/d/e/2PACX-1vQhO19qtRlgHXK67R33zdFqG74lG7K7zHoAS8q0dNGQ3aEbn_KqA964dLs-ewW4sPqdppb2IzgcsJj4/pub?gid=0&single=true&output=csv'
   const res = await fetch(url_doc)
   const csvData = await res.text()
-  
+
   const categories = []
 
   // Dividir el texto por líneas
   const lines = csvData.trim().split('\n')
-  
 
   // Iterar sobre las líneas desde la tercera (saltando las dos primeras vacías)
-  for (let i = 3; i < lines.length; i++) {
+  for (let i = 1; i < lines.length; i++) {
+    console.log('lines---> ', lines[i])
+
     // Separar cada línea en columnas usando el carácter ','
-    const columns = lines[i].split(',')
+    let columns = lines[i].split(',')
+
+    console.log(columns)
+
+    // Reemplazar todos los guiones y convertir a formato deseado
+    columns = processArrayRecursively(columns)
 
     // Extraer el nombre de la categoría, pregunta y respuestas
     const categoryName = columns[0].trim()
     const questionText = columns[1].trim()
-    const answers = columns.slice(5).map((answer) => answer.trim())   
+    const answers = columns.slice(5).map((answer) => answer.trim())
 
     // Buscar la respuesta correcta (marcada con "= Correcta")
     const correctAnswerIndex = answers.findIndex((answer) =>
       answer.includes('= Correcta')
     )
-    
+
     // Extraer el texto de la respuesta correcta
     const correctAnswer = answers[correctAnswerIndex]
       .replace(' = Correcta', '')
@@ -63,6 +69,22 @@ export async function parseCSVToQuestions() {
 
     // Agregar la pregunta a la categoría correspondiente
     category.questions.push(question)
+  }
+
+  function processArrayRecursively(columns) {
+    return columns.map((column) => {
+      // Procesar cada elemento recursivamente
+      return processLineRecursively(column)
+    })
+  }
+
+  function processLineRecursively(line) {
+    // Si la línea contiene un '$*', reemplázalo y llama recursivamente
+    if (line.includes('$*')) {
+      return processLineRecursively(line.replace('$*', ','))
+    }
+    // Cuando no quedan más guiones, devuelve la línea
+    return line
   }
 
   return categories
